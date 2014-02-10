@@ -1,0 +1,22 @@
+body {
+		color: #000;
+}
+
+a {
+		text-decoration: none;
+		color: #000;
+}
+
+a img {
+		border: none;
+}
+
+ul#page,
+#tooltip,
+#addnew,
+#tabnav,
+.nav,
+.actions,
+.like {
+		display: none;
+}

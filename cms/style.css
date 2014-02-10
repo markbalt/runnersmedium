@@ -1,0 +1,394 @@
+body {
+        font-family: 'Lucida Grande',Arial,Helvetica,Sans-Serif;
+		font-size: 0.81em;
+		line-height: 1.5em;
+        color: #333;
+        background: none;
+		margin: 15px;
+}
+
+h2 {
+		font-weight: normal;
+}
+
+ul, li {
+		margin: 0;
+		padding: 0;
+}
+
+a, a:link {
+        border-bottom: 1px solid #007CBA;
+        color: #007CBA;
+        font-weight: normal;
+        text-decoration: none;
+        cursor: pointer;
+}
+
+a:visited {
+        border-bottom: 1px solid #007CBA;
+        color: #007CBA;
+        font-weight: normal;
+        text-decoration: none;
+        cursor: pointer;
+}
+
+a:hover {
+        border-bottom: 1px solid #ef343f;
+        color: #ef343f;
+}
+
+a:active {
+        border-bottom: 1px solid #007CBA;
+        color: #007CBA;
+        font-weight: normal;
+        text-decoration: none;
+        cursor: pointer;
+}
+
+ul#nav {
+}
+
+ul#nav li {
+		display: inline;
+		list-style: none;
+		margin-right: .5em;
+}
+
+ul#page {
+		float: left;
+		clear: both;
+		list-style: none;
+		margin: 15px 0;
+}
+
+ul#page li {
+		display: inline;
+		margin-right: 10px;
+}
+
+ul#page li a {
+		padding: 5px 10px;
+		color: #666;
+		background-color: #f8f8f8;
+		border-bottom: none;
+		border: 3px solid transparent;
+}
+
+ul#page a:hover {
+		border: 3px solid #3376d4;
+		background-color: #fff;
+		color: #222;
+}
+
+ul#page li.selected {
+		padding: 5px 10px;
+		background-color: #222;
+		color: #fff;
+}
+
+ul#page li.elipsis {
+		background: none;
+}
+
+ul#page li.prev a,
+ul#page li.next a {
+		text-transform: uppercase;
+		font-size: .8em;
+}
+
+a.delete {
+		color: #DB1401;
+		font-size: 1.2em;
+		border-bottom: none;
+}
+
+table#stats {
+		width: auto;
+}
+
+/* users list */
+
+ol#users {
+		float: left; 
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+        text-align: left;
+}
+
+ol#users li {
+		float: left;
+		margin: 5px 0;
+		padding-bottom: 15px;
+		clear: both;
+		position: relative;
+}
+
+ol#users .pic {
+		display: block;
+		float: left;
+		width: 100px;
+		padding: 0 10px;
+		margin: 0;
+}
+
+ol#users .details {
+		float: left;
+		clear: none;
+		margin: 0 15px;
+		color: #747474;
+}
+
+ol#users .details h3 {
+		font-size: 1.4em;
+		text-transform: none;
+		margin: 10px 0;
+		width: 300px;
+}
+
+ol#users .details strong {
+		color: #4a4a4a;
+}
+
+ol#users li .message {		
+		color: #222;
+		font-size: 1.3em;
+		letter-spacing: .08em;
+}
+
+ol#users .activity {
+		float: left;
+		color: #444;
+		margin: 15px 0;
+		padding: 5px;
+		letter-spacing: .08em;
+		background-color: #f8f8f8;
+		font-size: 1.3em;
+}
+
+ol#users .actions {
+		display: block;
+		float: left;
+		color: #ccc;
+		margin: 15px 0 0 0;
+		padding: 5px;
+		letter-spacing: .08em;
+		border: 3px solid #f0f0f0;
+		color: #ccc;
+}
+
+ol#users .actions a {
+		border-bottom: none;
+}
+
+img.picture {
+		float: left;
+		width: 85px;
+		height: 85px;
+		border: 3px solid #F0F0F0;
+}
+
+img.picture:hover {
+		border: 3px solid #333;
+}
+
+/* forms */
+
+fieldset {
+        margin: 10px 0;
+        padding: 0;
+        border: none;
+}
+
+fieldset .comment {
+        margin: 5px 0 15px 0;
+}
+
+label {
+        display: block;
+}
+
+label.inline {
+		float: left;
+        display: block;
+        margin-right: 5px;
+}
+
+input {
+        width: 255px;
+        margin: 5px 10px 15px 0;
+        padding: 8px;
+        font-size: 1.1em;
+}
+
+select {
+        height: auto;
+        margin: 5px 5px 15px 0;
+        padding: 2px;
+        font-size: 1.1em;
+}
+
+textarea {
+        width: 265px;
+        height: 140px;
+        margin: 5px 0 15px 0;
+        padding: 5px;
+        font-size: 1.1em;
+        font-family: 'Lucida Grande',Arial,Helvetica,Sans-Serif;
+}
+
+input.file {
+		width: auto;
+		font: inherit;
+		padding: inherit;
+		border: none;
+}
+
+input.inline {
+		display: inline;
+		margin: 0 10px 0 0;
+}
+
+fieldset.radio {
+		margin: 10px 0;
+}
+
+.radio input {
+		display: inline;
+		width: auto;
+		margin-left: 3px;
+}
+
+.radio legend {
+		display: block;
+        font-weight: bold;
+        color: #333;
+}
+
+.radio label {
+		display: inline;
+}
+
+.listradio {
+		margin: 0;
+}
+
+input.check {
+		display: inline;
+		width: auto;
+		margin-right: 5px;
+}
+
+label.check {
+		display: inline;
+		width: auto;
+}
+
+.button {
+        float: left;
+        width: auto;
+        font: 13px 'Lucida Grande', sans-serif;
+        text-decoration: none;
+}
+
+.confirm {
+		font-size: 1.2em;
+		margin-bottom: 15px;
+}
+
+.confirm ul {
+		margin: 15px 0;
+}
+
+.confirm ul li {
+		margin: 5px 35px;
+		list-style: disc;
+}
+
+.oops {
+        color: #db1401;
+}
+        
+.ok {
+        color: #02f09f;
+}
+        
+.message {
+		margin: 0;
+		padding: 5px 0;
+		font-size: 1.1em;
+		color: #02f09f;
+}
+
+.error {
+		margin: 0;
+		padding: 5px 0;
+		font-size: 1.1em;
+		color: #db1401;
+}
+
+#filter {
+		float: left;
+		width: 280px;
+		margin: 15px 0;
+		padding: 0 15px;
+		border: 3px solid #f0f0f0;
+}
+
+table {
+		border-collapse: collapse;
+		background-color: #F2F2F2;
+		margin-bottom: 15px;
+}
+
+thead, th {
+		text-align: left;
+		font-size: 13px;
+		background-color: #555;
+		color: #DDD;
+		font-weight: normal;
+		padding: 5px 15px;
+}
+
+thead a,
+thead a:link,
+thead a:visited,
+thead a:active {
+		color: #DDD;
+		border-bottom: none;
+}
+
+thead a:hover {
+		color: #fff;
+}
+
+td {
+		border: 1px solid #CCC;
+		color: #444;
+		text-align: left;
+		padding: 5px 15px;
+}
+
+tr:hover {
+		background-color: #e6e6e6;
+}
+
+thead tr:hover {
+		background-color: transparent;
+		color: inherit;
+}
+
+.row {
+		background-color: #F2F2F2;
+}
+
+.alt {
+		background-color: #FFF;
+}
+
+br.clear {
+		clear: both;
+		display: block;
+		height: 1px;
+		margin: -1px 0 0 0;
+}

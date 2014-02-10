@@ -1,0 +1,8 @@
+ul.dropdown ul li {
+		display: inline;
+		width: 100%;
+}
+
+#tabnav ul {
+        padding-bottom: 1px;
+}
